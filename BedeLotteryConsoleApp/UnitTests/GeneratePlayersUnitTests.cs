@@ -38,7 +38,7 @@ namespace BedeLotteryConsoleApp.UnitTests
             int result = generatePlayers.AmountOfPlayers();
 
             // Assert
-            Assert.InRange(result, 9, 15); // Check if the number of players is between 9 and 15 (inclusive)
+            Assert.InRange(result, 9, 15); // Check if the number of players is between 9 and 15
         }
     }
 }

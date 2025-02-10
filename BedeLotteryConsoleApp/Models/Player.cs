@@ -10,7 +10,6 @@ namespace BedeLotteryConsoleApp.Models
     {
         private int playerNumber;
         private decimal houseProfit;
-        //private List<Player> playerList = new List<Player>(); //cld pass this to methods?
         private decimal balance;
         private string? prize;
         private List<int> amountOfTickets = new List<int>();
@@ -25,11 +24,6 @@ namespace BedeLotteryConsoleApp.Models
             get { return houseProfit; }
             set { houseProfit = value; }
         }
-        //public List<Player> PlayerList
-        //{
-        //    get { return playerList; }
-        //    set { playerList = value; }
-        //}
         public decimal Balance
         {
             get { return balance; }
@@ -40,22 +34,10 @@ namespace BedeLotteryConsoleApp.Models
             get { return amountOfTickets; }
             set { amountOfTickets = value; }
         }
-        //public Ticket Tickets
-        //{
-        //    get { return tickets; }
-        //    set { tickets = value; }
-        //}
         public string Prize
         {
             get { return prize; }
             set { prize = value; }
         }
-        //public enum GameResult
-        //{
-        //    0       --could add this back in will see.
-        //    GrandPrize,
-        //    SecondTier,
-        //    ThirdTier
-        //}
     }
 }
